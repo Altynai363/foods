@@ -1,0 +1,104 @@
+@media(max-width:1200px){
+    .container{
+        max-width: 900px;
+    }
+    .cards{
+        display: flex;
+        gap: 20px;
+       
+    }
+    .asia-food{
+        width: 280px;
+    }
+    .cards__left{
+        display: flex;
+        gap: 20px;
+    }
+    .content{
+        margin-left: 30px;
+      }
+      .content__title{
+        margin-left: 60px;
+      }
+      .content__text{
+        margin-left: 60px;
+      }
+}
+
+
+@media(max-width:899px){
+    .container{
+        max-width: 375px;
+    }
+    .header__right  li{
+    display: none;
+   }
+   .header__btn {
+    display: none;
+   }
+
+   .hero h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 340px;
+   }
+   .text{
+    width: 300px;
+    margin-left: 200px;
+   }
+   .hero__card{
+    display: none;
+   }
+   .hero__title{
+    width: 300px;
+    margin-left: 200px;
+   }
+   .hero__box{
+    background: #04b90b;
+    padding: 14px 55px;
+   }
+   .hero__box img{
+    margin-right: 110px;
+   }
+   .hero__box p {
+    display: flex;
+    color: white;
+    display: block;
+   }
+   .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 320px;
+   }
+   .cards__left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 320px;
+   }
+   .lines{
+    margin-left: 170px;
+   }
+
+   .content__des ul li {
+    display: none;
+   }
+   .content__title ul li{
+    display: none;
+   }
+   .content__text ul li {
+    display: none;
+   }
+   .content img {
+    margin-left: 245px;
+   }
+   .content p {
+    margin-left: 165px;
+    margin-bottom: 30px;
+   }
+}
